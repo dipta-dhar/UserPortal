@@ -1,14 +1,36 @@
 # UserPortal
 Simple User Portal
 
-
-# grails_Simple_User_Portal
-It is a simple Login System using Grails framework.
-
-
+## Login:
 ![](UPI/login.png)
-![](demo2.jpg)
-![](demo3.jpg)
-![](demo4.jpg)
 
-Change Password is on progress...
+## Registration:
+![](UPI/reg.png)
+
+## Admin:
+
+### Index:
+![](UPI/admin.png)
+
+### User Details:
+![](UPI/admin00.png)
+
+### Edit User:
+![](UPI/admin01.png)
+
+### Delete User:
+![](UPI/admin02.png)
+
+## Normal User:
+
+### User Details:
+![](UPI/user.png)
+
+### User Change Password(pop up):
+![](UPI/user00.png)
+
+### User Change Password:
+![](UPI/user01.png)
+
+
+Specials Thanks: H.M.Touhid Mia
