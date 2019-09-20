@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UserPortal.iml" filepath="$PROJECT_DIR$/UserPortal.iml" group="UserPortal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UserPortal_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/UserPortal_integrationTest.iml" group="UserPortal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UserPortal_main.iml" filepath="$PROJECT_DIR$/.idea/modules/UserPortal_main.iml" group="UserPortal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UserPortal_test.iml" filepath="$PROJECT_DIR$/.idea/modules/UserPortal_test.iml" group="UserPortal" />
+    </modules>
+  </component>
+</project>

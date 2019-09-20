@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="UserPortal_integrationTest" target="12" />
+      <module name="UserPortal_main" target="12" />
+      <module name="UserPortal_test" target="12" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

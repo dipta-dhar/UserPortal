@@ -1,0 +1,6 @@
+#Thu, 19 Sep 2019 18:39:35 +0600
+
+info.app.version=0.1
+info.app.name=UserPortal
+grails.env=development
+info.app.grailsVersion=4.0.0

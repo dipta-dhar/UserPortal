@@ -1,0 +1,186 @@
+h1 {
+    padding-bottom: 9px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px 0;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    border-right: 1px solid #eee;
+}
+
+.sidebar .nav {
+    margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+    width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+    margin-left: 0;
+}
+
+.sidebar .nav-link {
+    border-radius: 0;
+}
+
+.action-row {
+    width: 135px;
+    text-align: center;
+}
+
+
+.paginate {
+    background: #fff;
+    border-radius: 2px;
+    height: 32px;
+    line-height: 32px;
+    position: relative;
+}
+
+.paginate span.currentStep {
+    background: none repeat scroll 0 0 #337ab7;
+    border: 1px solid #337ab7;
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+    line-height: 32px;
+    padding: 0 10px;
+    position: relative;
+    z-index: 10;
+    font-size: 14px;
+}
+
+.paginate a.step {
+    border: 1px solid #d3dbde;
+    color: #9e9e9e;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0 10px;
+}
+
+.paginate a.nextLink {
+    color: #9e9e9e;
+    line-height: 32px;
+    padding: 0 8px;
+    border: 1px solid #d3dbde;
+    float: left;
+}
+
+.paginate a.prevLink {
+    color: #9e9e9e;
+    line-height: 32px;
+    padding: 0 8px;
+    display: inline-block;
+    border: 1px solid #d3dbde;
+    float: left;
+}
+
+.alert {
+    min-height: 50px;
+    width: 300px; /** Use 100% to fill the width of the page **/
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 2000;
+}
+
+.alert .message {
+    font-weight: bold;
+}
+
+.page-title {
+    color: #555;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+}
+
+#wrapper > .container {
+    padding: 60px 15px 0;
+}
+.container .credit {
+    margin: 20px 0;
+}
+/* Set the fixed height of the footer here */
+#footer {
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+#footer {
+    background-color:#d5d5d5;
+}
+
+#footer > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#cal-icon {
+    padding-left: 10px;
+}
