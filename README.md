@@ -6,7 +6,7 @@ Simple User Portal
 It is a simple Login System using Grails framework.
 
 
-![](demo1.jpg)
+![](UPI/login.png)
 ![](demo2.jpg)
 ![](demo3.jpg)
 ![](demo4.jpg)
