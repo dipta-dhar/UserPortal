@@ -7,7 +7,7 @@ Simple User Portal that  save, delete & update user important information. It is
 ## Registration:
 ![](UPI/reg.png)
 
-## Admin:
+## Admin Panel:
 
 ### Index:
 ![](UPI/admin.png)
@@ -21,15 +21,15 @@ Simple User Portal that  save, delete & update user important information. It is
 ### Delete User:
 ![](UPI/admin02.png)
 
-## Normal User:
+## User Panel:
 
 ### User Details:
 ![](UPI/user.png)
 
-### User Change Password(pop up):
+### Change Password(pop up):
 ![](UPI/user00.png)
 
-### User Change Password:
+### Change Password:
 ![](UPI/user01.png)
 
 
