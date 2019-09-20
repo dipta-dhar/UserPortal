@@ -1,5 +1,5 @@
 # UserPortal
-Simple User Portal
+Simple User Portal that  save, delete & update user important information. It is build using Grails, Bootstrap 4, jQuery, & MySQL database.
 
 ## Login:
 ![](UPI/login.png)
